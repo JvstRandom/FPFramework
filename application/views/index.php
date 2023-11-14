@@ -44,7 +44,7 @@
       <div class="logo">
         <!-- Uncomment below if you prefer to use an text logo -->
         <!-- <h1><a href="index.html">WebinarToday</a></h1> -->
-        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+        <img src="assets/img/logowebinartoday.png" alt="" class="img-fluid ">
       </div>
 
       <nav id="navbar" class="navbar">
@@ -54,7 +54,14 @@
           <li><a class="nav-link scrollto" href="#services">Layanan</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">WebinarToday</a></li>
           <li><a class="nav-link scrollto" href="#team">Contact</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Login</a></li>
+          <li class="dropdown"><a href="#"><span>Login</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="<?php echo base_url('index.php/login_ctrl/loginUser')?>">Pengguna</a></li>
+              <li><a href="<?php echo base_url('index.php/login_ctrl/loginPenyelenggara')?>">Penyelenggara</a></li>
+            </ul>
+          </li>
+          </li>
+
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
