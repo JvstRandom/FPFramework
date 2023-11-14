@@ -44,12 +44,12 @@
       <div class="logo">
         <!-- Uncomment below if you prefer to use an text logo -->
         <!-- <h1><a href="index.html">WebinarToday</a></h1> -->
-        <img src="assets/img/logowebinartoday.png" alt="" class="img-fluid ">
+        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <li><a class="nav-link scrollto" href="#about">Tentang Kami</a></li>
           <li><a class="nav-link scrollto" href="#services">Layanan</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">WebinarToday</a></li>
@@ -79,10 +79,10 @@
 
       <div class="hero-info" data-aos="zoom-in" data-aos-delay="100">
       <h2>Selamat Datang<br>di <span>WebinarToday</span><br>Cari webinarmu disini!</h2>
-        <!--<div class="input-group mb-3">
+        <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="Ketik Kata Kunci disini" aria-label="Recipient's username" aria-describedby="button-addon2">
           <button class="btn btn-outline-info" type="button" id="button-addon2">Enter</button>
-        </div>-->
+        </div>
         <div>
           <a href="#team" class="btn-get-started scrollto">Buat Webinar</a>
           <a href="#portfolio" class="btn-services scrollto">Cari Webinar</a>
