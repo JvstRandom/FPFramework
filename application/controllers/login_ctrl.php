@@ -10,7 +10,7 @@ class Login_ctrl extends CI_Controller {
     function loginUser(){
         if ($this->input->post()) {
             $data_login_user = $this->input->post();
-            $result = $this->login_m->insert_mahasiswa($data_input_user);
+            $result = $this->login_m->insert_mahasiswa($data_login_user);
             redirect('index/index');
         } else {
             $data['judul'] = "Pengguna";
@@ -21,7 +21,7 @@ class Login_ctrl extends CI_Controller {
     function loginPenyelenggara(){
         if ($this->input->post()) {
             $data_login_user = $this->input->post();
-            $result = $this->login_m->insert_mahasiswa($data_input_user);
+            $result = $this->login_m->insert_mahasiswa($data_login_user);
             redirect('index/index');
         } else {
             $data['judul'] = "Penyelenggara";
