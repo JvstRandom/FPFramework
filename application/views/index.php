@@ -44,7 +44,11 @@
       <div class="logo">
         <!-- Uncomment below if you prefer to use an text logo -->
         <!-- <h1><a href="index.html">WebinarToday</a></h1> -->
-        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+<<<<<<< HEAD
+        <img src="assets/img/logowebinartoday.png" alt="" class="img-fluid ">
+=======
+        <a href="index.html"><img src="assets/img/logoWebinarToday.png" alt="" class="img-fluid"></a>
+>>>>>>> d3be209c06ed5eef1b6d2c889bd191172b3060ea
       </div>
 
       <nav id="navbar" class="navbar">
