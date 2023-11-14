@@ -72,6 +72,11 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#about">Tentang Kami</a></li>
+          <li><a class="nav-link scrollto" href="#services">Layanan</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">WebinarToday</a></li>
+          <li><a class="nav-link scrollto" href="#team">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Login</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -88,14 +93,14 @@
       </div>
 
       <div class="hero-info" data-aos="zoom-in" data-aos-delay="100">
-        <h2>Bingung mecari informasi<br><span>Webinar?</span><br>kamu dapat dengan mudah mencarinya disini!</h2>
-        <div class="input-group mb-3">
+      <h2>Selamat Datang<br>di <span>WebinarToday</span><br>Cari webinarmu disini!</h2>
+        <!--<div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="Ketik Kata Kunci disini" aria-label="Recipient's username" aria-describedby="button-addon2">
-          <button class="btn btn-outline-info" type="button" id="button-addon2">Button</button>
-        </div>
+          <button class="btn btn-outline-info" type="button" id="button-addon2">Enter</button>
+        </div>-->
         <div>
-          <a href="#about" class="btn-get-started scrollto">Get Started</a>
-          <a href="#services" class="btn-services scrollto">Our Services</a>
+          <a href="#team" class="btn-get-started scrollto">Buat Webinar</a>
+          <a href="#portfolio" class="btn-services scrollto">Cari Webinar</a>
         </div>
       </div>
 
