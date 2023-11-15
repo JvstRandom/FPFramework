@@ -12,8 +12,8 @@ class template {
             $data['_content'] = $this->_ciTemplate->load->view($template, $data, TRUE);
         
         $data['_header'] = $this->_ciTemplate->load->view('Template/header', $data, TRUE);
-        $data['_sidebar'] = $this->_ciTemplate->load->view('Template/sidebar', $data, TRUE);
-        $data['_footer'] = $this->_ciTemplate->load->view('Template/footer', $data, TRUE);
+        // $data['_sidebar'] = $this->_ciTemplate->load->view('Template/sidebar', $data, TRUE);
+        // $data['_footer'] = $this->_ciTemplate->load->view('Template/footer', $data, TRUE);
         $data['_template'] = $this->_ciTemplate->load->view('Template/template', $data);
     }
 }

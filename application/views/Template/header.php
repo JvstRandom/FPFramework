@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+<meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>WebinarToday</title>
@@ -44,7 +44,6 @@
         * Author: BootstrapMade.com
         * License: https://bootstrapmade.com/license/
         ======================================================== -->
-
 </head>
 <body>
     <!-- ======= Header ======= -->
@@ -59,7 +58,7 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            <li><a class="nav-link scrollto" href="#hero">home</a></li>
             <li><a class="nav-link scrollto" href="#about">Tentang Kami</a></li>
             <li><a class="nav-link scrollto" href="#services">Layanan</a></li>
             <li><a class="nav-link scrollto " href="#portfolio">WebinarToday</a></li>

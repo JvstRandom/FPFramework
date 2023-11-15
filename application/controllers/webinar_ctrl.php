@@ -13,8 +13,8 @@ class webinar_ctrl extends CI_Controller
     // menampilkan homepage
     function index()
     {
-        $this->load->view("index");
-        // $this->template->Tampilan("index");
+        // $this->load->view("index");
+        $this->template->Tampilan("index");
     }
 
 }

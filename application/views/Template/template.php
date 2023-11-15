@@ -1,18 +1,28 @@
-<!-- header -->
-<?php echo @$_header; ?>
 
-<div class="container-fluid">
-    <div class="row">
+<!-- application/views/template.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-        <!-- sidebar -->
-        <?php echo @$_sidebar; ?>
 
-        <main role="main">
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <!-- header -->
+            <?php echo @$_header; ?>
+        </header>
+
+        <main>
             <!-- content -->
             <?php echo @$_content; ?>
         </main>
-    </div>
-</div>
 
-<!-- footer -->
-<?php echo @$_footer; ?>
+        <footer>
+            <!-- footer -->
+            <?php echo @$_footer; ?>
+        </footer>
+    </div>
+
+</body>
+</html>
