@@ -17,4 +17,9 @@ class webinar_ctrl extends CI_Controller
         $this->template->Tampilan("index");
     }
 
+    function s() {
+        // $this->load->view("search_page");
+        $this->template->Tampilan("search_page");
+    }
+
 }

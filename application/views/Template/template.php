@@ -1,28 +1,15 @@
+<!-- header -->
+<?php echo @$_header; ?>
 
-<!-- application/views/template.php -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<div class="container-fluid">
+    <div class="row">
 
-
-</head>
-<body>
-    <div class="container-fluid">
-        <header>
-            <!-- header -->
-            <?php echo @$_header; ?>
-        </header>
-
-        <main>
+        <main role="main">
             <!-- content -->
             <?php echo @$_content; ?>
         </main>
-
-        <footer>
-            <!-- footer -->
-            <?php echo @$_footer; ?>
-        </footer>
     </div>
+</div>
 
-</body>
-</html>
+<!-- footer -->
+<?php echo @$_footer; ?>

@@ -4,7 +4,7 @@
     <div class="container" data-aos="fade-up">
 
       <div class="hero-img" data-aos="zoom-out" data-aos-delay="200">
-        <img src="assets/img/hero-img.svg" alt="" class="img-fluid">
+        <img src="<?php echo base_url("assets/img/hero-img.svg");?>" alt="" class="img-fluid">
       </div>
 
       <div class="hero-info" data-aos="zoom-in" data-aos-delay="100">
@@ -61,13 +61,13 @@
           </div>
 
           <div class="col-lg-6 background order-lg-2" data-aos="zoom-in">
-            <img src="assets/img/about-img.svg" class="img-fluid" alt="">
+            <img src="<?php echo base_url("assets/img/about-img.svg"); ?>" class="img-fluid" alt="">
           </div>
         </div>
 
         <div class="row about-extra">
           <div class="col-lg-6" data-aos="fade-right">
-            <img src="assets/img/about-extra-1.svg" class="img-fluid" alt="">
+            <img src="<?php echo base_url("assets/img/about-extra-1.svg"); ?>" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-5 pt-lg-0" data-aos="fade-left">
             <h4>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h4>
@@ -82,7 +82,7 @@
 
         <div class="row about-extra">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
-            <img src="assets/img/about-extra-2.svg" class="img-fluid" alt="">
+            <img src="<?php echo base_url("assets/img/about-extra-2.svg"); ?>" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right">
@@ -259,12 +259,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt="">
+              <img src="<?php echo base_url("assets/img/portfolio/app1.jpg"); ?>" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4><a href="portfolio-details.html">App 1</a></h4>
                 <p>App</p>
                 <div>
-                  <a href="assets/img/portfolio/app1.jpg" data-gallery="portfolioGallery" title="App 1" class="portfolio-lightbox link-preview"><i class="bi bi-plus"></i></a>
+                  <a href="<?php echo base_url("assets/img/portfolio/app1.jpg"); ?>" data-gallery="portfolioGallery" title="App 1" class="portfolio-lightbox link-preview"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -273,12 +273,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/web3.jpg" class="img-fluid" alt="">
+              <img src="<?php echo base_url("assets/img/portfolio/web3.jpg"); ?>" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4><a href="portfolio-details.html">Web 3</a></h4>
                 <p>Web</p>
                 <div>
-                  <a href="assets/img/portfolio/web3.jpg" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="<?php echo base_url("assets/img/portfolio/web3.jpg"); ?>" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -287,7 +287,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/app2.jpg" class="img-fluid" alt="">
+              <img src="<?php echo base_url("assets/img/portfolio/app2.jpg"); ?>" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4><a href="portfolio-details.html">App 2</a></h4>
                 <p>App</p>
