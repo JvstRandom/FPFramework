@@ -28,6 +28,12 @@
     <!-- Template search-page -->
     <link href="<?php echo base_url("assets/css/list.css"); ?>" rel="stylesheet">
 
+    <!-- Template Profile page -->
+    <link href="<?php echo base_url("assets/css/profile.css"); ?>" rel="stylesheet">
+
+    <!-- Template Webinar page -->
+    <link href="<?php echo base_url("assets/css/webpage.css"); ?>" rel="stylesheet">
+
     <!-- Vendor JS Files -->
     <script src="<?php echo base_url("assets/vendor/purecounter/purecounter_vanilla.js"); ?>"></script>
     <script src="<?php echo base_url("assets/vendor/aos/aos.js"); ?>"></script>
@@ -66,6 +72,7 @@
             <li><a class="nav-link scrollto" href="#services">Layanan</a></li>
             <li><a class="nav-link scrollto " href="#portfolio">WebinarToday</a></li>
             <li><a class="nav-link scrollto" href="#team">Contact</a></li>
+            <li><a class="nav-link scrollto" href="<?php echo base_url('webinar_ctrl/profile')?>">Profile</a></li>
             <li class="dropdown"><a href="#"><span>Login</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                 <li><a href="<?php echo base_url('index.php/login_ctrl/loginUser')?>">Pengguna</a></li>

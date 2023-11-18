@@ -1,7 +1,7 @@
-<br><br><br><br>
+<br><br>
 
 
-  <div class="container">
+  <div class="container search-con">
     <div class="text1">
         <h3>Webinar</h3>
         <p>Cari semua webinar yang ada disini sesuai yang kamu inginkan dengan mudah:</p>
@@ -45,6 +45,7 @@
     <!-- LIST WEBINAR -->
     <div class="list-webinar">
         <div class="card-list">
+            <a href="<?php echo base_url('webinar_ctrl/webinar_page')?>">
             <article class="card">
             <figure class="card-image">
                 <img src="https://images.unsplash.com/photo-1494253109108-2e30c049369b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNDcwMTUwOQ&ixlib=rb-1.2.1&q=85" alt="An orange painted blue, cut in half laying on a blue background" />
@@ -76,6 +77,7 @@
                     Jul 26, 2019
                 </div>
             </article>
+            </a>
         </div>
 
         <div class="card-list">

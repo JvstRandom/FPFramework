@@ -22,4 +22,11 @@ class webinar_ctrl extends CI_Controller
         $this->template->Tampilan("search_page");
     }
 
+    function profile() {
+        $this->template->Tampilan("profile");
+    }
+
+    function webinar_page() {
+        $this->template->Tampilan("webinar_page");
+    }
 }
