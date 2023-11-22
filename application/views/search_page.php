@@ -1,5 +1,6 @@
 <br><br>
-
+<!-- Template search-page -->
+<link href="<?php echo base_url("assets/css/list.css"); ?>" rel="stylesheet">
 
   <div class="container search-con">
     <div class="text1">

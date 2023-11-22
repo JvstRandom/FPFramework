@@ -1,21 +1,18 @@
 
+
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="clearfix">
     <div class="container" data-aos="fade-up">
 
       <div class="hero-img" data-aos="zoom-out" data-aos-delay="200">
-        <img src="<?php echo base_url("assets/img/hero-img.svg");?>" alt="" class="img-fluid">
+        <img src="assets/img/hero-img.svg" alt="" class="img-fluid">
       </div>
 
       <div class="hero-info" data-aos="zoom-in" data-aos-delay="100">
-      <h2>Selamat Datang<br>di <span>WebinarToday</span><br>Cari webinarmu disini!</h2>
-        <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Ketik Kata Kunci disini" aria-label="Recipient's username" aria-describedby="button-addon2">
-          <button class="btn btn-outline-info" type="button" id="button-addon2">Enter</button>
-        </div>
+        <h2>We provide<br><span>solutions</span><br>for your business!</h2>
         <div>
-          <a href="#team" class="btn-get-started scrollto">Buat Webinar</a>
-          <a href="#portfolio" class="btn-services scrollto">Cari Webinar</a>
+          <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          <a href="#services" class="btn-services scrollto">Our Services</a>
         </div>
       </div>
 
@@ -29,7 +26,7 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h3>Tentang Kami</h3>
+          <h3>About Us</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </header>
 
@@ -61,13 +58,13 @@
           </div>
 
           <div class="col-lg-6 background order-lg-2" data-aos="zoom-in">
-            <img src="<?php echo base_url("assets/img/about-img.svg"); ?>" class="img-fluid" alt="">
+            <img src="assets/img/about-img.svg" class="img-fluid" alt="">
           </div>
         </div>
 
         <div class="row about-extra">
           <div class="col-lg-6" data-aos="fade-right">
-            <img src="<?php echo base_url("assets/img/about-extra-1.svg"); ?>" class="img-fluid" alt="">
+            <img src="assets/img/about-extra-1.svg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-5 pt-lg-0" data-aos="fade-left">
             <h4>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h4>
@@ -82,7 +79,7 @@
 
         <div class="row about-extra">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
-            <img src="<?php echo base_url("assets/img/about-extra-2.svg"); ?>" class="img-fluid" alt="">
+            <img src="assets/img/about-extra-2.svg" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right">
@@ -108,8 +105,8 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h3>Layanan Kami</h3>
-          <p>Kami menyediakan layanan yang cuku lengkap pada website ini yakni:</p>
+          <h3>Services</h3>
+          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
         </header>
 
         <div class="row justify-content-center">
@@ -117,14 +114,14 @@
           <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
             <div class="box">
               <div class="icon"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
-              <h4 class="title"><a href="">Pencarian Webinar dengan mudah</a></h4>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="200">
             <div class="box">
               <div class="icon"><i class="bi bi-card-checklist" style="color: #e9bf06;"></i></div>
-              <h4 class="title"><a href="">Pendaftaran dan Pempromosian(?) Webinar Anda</a></h4>
+              <h4 class="title"><a href="">Dolor Sitema</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
             </div>
           </div>
@@ -132,7 +129,7 @@
           <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
             <div class="box">
               <div class="icon"><i class="bi bi-bar-chart" style="color: #3fcdc7;"></i></div>
-              <h4 class="title"><a href="">Webinar Ter Uptodate</a></h4>
+              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
               <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
             </div>
           </div>
@@ -259,12 +256,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="<?php echo base_url("assets/img/portfolio/app1.jpg"); ?>" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4><a href="portfolio-details.html">App 1</a></h4>
                 <p>App</p>
                 <div>
-                  <a href="<?php echo base_url("assets/img/portfolio/app1.jpg"); ?>" data-gallery="portfolioGallery" title="App 1" class="portfolio-lightbox link-preview"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/app1.jpg" data-gallery="portfolioGallery" title="App 1" class="portfolio-lightbox link-preview"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -273,12 +270,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="<?php echo base_url("assets/img/portfolio/web3.jpg"); ?>" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/web3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4><a href="portfolio-details.html">Web 3</a></h4>
                 <p>Web</p>
                 <div>
-                  <a href="<?php echo base_url("assets/img/portfolio/web3.jpg"); ?>" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/web3.jpg" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -287,7 +284,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="<?php echo base_url("assets/img/portfolio/app2.jpg"); ?>" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/app2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4><a href="portfolio-details.html">App 2</a></h4>
                 <p>App</p>
@@ -684,3 +681,5 @@
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
+
+  
