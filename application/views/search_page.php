@@ -2,7 +2,7 @@
 <!-- Template search-page -->
 <link href="<?php echo base_url("assets/css/list.css"); ?>" rel="stylesheet">
 
-  <div class="container search-con">
+  <div class="container" >
     <div class="text1">
         <h3>Webinar</h3>
         <p>Cari semua webinar yang ada disini sesuai yang kamu inginkan dengan mudah:</p>
@@ -28,17 +28,17 @@
                 <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
                 <label class="btn btn-outline-primary" for="btncheck3">Online</label>
 
-                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck3">Offline</label>
+                <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck4">Offline</label>
 
-                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck3">Sertifikat</label>
+                <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck5">Sertifikat</label>
 
-                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck3">Minggu Ini</label>
+                <input type="checkbox" class="btn-check" id="btncheck6" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck6">Minggu Ini</label>
 
-                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck3">Yang akan datang</label>
+                <input type="checkbox" class="btn-check" id="btncheck7" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck7">Yang akan datang</label>
             </div>
         </div>
     </div>

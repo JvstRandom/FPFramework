@@ -123,13 +123,13 @@ Global Styles
 */
 html,
 body {
-  background: #c6dae4;
+  background: #fff;
   font-family: 'Poppins', sans-serif;
 }
 
 body .page-content {
   margin-top: 110px;
-  background-color: #8db9cf;
+  background-color: rgb(177, 218, 238);
   padding: 60px;
   border-radius: 23px;
 }
@@ -178,9 +178,9 @@ p {
 
 .main-border-button a {
   font-size: 14px;
-  color: #ec6090;
+  color: #0b6bd3;
   background-color: transparent;
-  border: 1px solid #ec6090;
+  border: 1px solid #0b6bd3;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -214,7 +214,7 @@ section {
 }
 
 .heading-section h4 {
-  color: #ec6090;
+  color: #0b6bd3;
   font-size: 34px;
   text-decoration: none;
   margin-bottom: 30px;
@@ -238,7 +238,7 @@ Pre-loader Style
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.99);
+  background-color: rgba(255, 255, 255, 0.99);
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
@@ -796,7 +796,7 @@ Banner Style
 
 .main-banner h4 em {
   font-style: normal;
-  color: #ec6090;
+  color: #0b6bd3;
 }
 
 /* 
@@ -808,12 +808,12 @@ Most Popular Style
 .most-popular {
   margin-top: 60px;
   padding: 30px;
-  background-color: #1f2122;
+  background-color: #e6e8e9;
   border-radius: 23px;
 }
 
 .most-popular .item {
-  background-color: #27292a;
+  background-color: #e6e8e9;
   padding: 30px 15px;
   border-radius: 23px;
   margin-bottom: 30px;
@@ -860,7 +860,7 @@ Most Popular Style
 }
 
 .most-popular .item ul li:last-child i {
-  color: #ec6090;
+  color: #0b6bd3;
 }
 
 .most-popular .main-button {
@@ -877,12 +877,12 @@ Gaming Library Style
 .gaming-library {
   margin-top: 60px;
   padding: 30px;
-  background-color: #1f2122;
+  background-color: rgb(228, 233, 236);
   border-radius: 23px;
 }
 
 .gaming-library .item {
-  border-bottom: 1px solid #27292a;
+  border-bottom: 1px solid #e9eced;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }

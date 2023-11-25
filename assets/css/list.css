@@ -10,7 +10,7 @@ body {
 	font-family: "Lexend", sans-serif;
 	line-height: 1.5;
 	min-height: 100vh;
-	display: flex;
+	display: block;
 	align-items: center;
 	justify-content: center;
 	color: #393232;

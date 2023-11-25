@@ -1,4 +1,6 @@
 <br><br>
+<!-- Template rofile-page -->
+<link href="<?php echo base_url("assets/css/profile.css"); ?>" rel="stylesheet">
 
   <div class="container">
     <div class="main-body">
