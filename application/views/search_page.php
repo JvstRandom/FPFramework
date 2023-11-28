@@ -1,7 +1,8 @@
-<br><br><br><br>
+<br><br>
+<!-- Template search-page -->
+<link href="<?php echo base_url("assets/css/list.css"); ?>" rel="stylesheet">
 
-
-  <div class="container">
+  <div class="container" >
     <div class="text1">
         <h3>Webinar</h3>
         <p>Cari semua webinar yang ada disini sesuai yang kamu inginkan dengan mudah:</p>
@@ -27,17 +28,17 @@
                 <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
                 <label class="btn btn-outline-primary" for="btncheck3">Online</label>
 
-                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck3">Offline</label>
+                <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck4">Offline</label>
 
-                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck3">Sertifikat</label>
+                <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck5">Sertifikat</label>
 
-                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck3">Minggu Ini</label>
+                <input type="checkbox" class="btn-check" id="btncheck6" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck6">Minggu Ini</label>
 
-                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck3">Yang akan datang</label>
+                <input type="checkbox" class="btn-check" id="btncheck7" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck7">Yang akan datang</label>
             </div>
         </div>
     </div>
@@ -45,6 +46,7 @@
     <!-- LIST WEBINAR -->
     <div class="list-webinar">
         <div class="card-list">
+            <a href="<?php echo base_url('webinar_ctrl/webinar_page')?>">
             <article class="card">
             <figure class="card-image">
                 <img src="https://images.unsplash.com/photo-1494253109108-2e30c049369b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNDcwMTUwOQ&ixlib=rb-1.2.1&q=85" alt="An orange painted blue, cut in half laying on a blue background" />
@@ -76,6 +78,7 @@
                     Jul 26, 2019
                 </div>
             </article>
+            </a>
         </div>
 
         <div class="card-list">
