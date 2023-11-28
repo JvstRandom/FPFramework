@@ -54,6 +54,7 @@
             <li><a class="nav-link scrollto" href="#services">Layanan</a></li>
             <li><a class="nav-link scrollto " href="#portfolio">WebinarToday</a></li>
             <li><a class="nav-link scrollto" href="<?php echo base_url('webinar_ctrl/profile')?>">Profile</a></li>
+            <li><a class="nav-link scrollto" href="<?php echo base_url('webinar_ctrl/dashboard_page')?>">dashboard</a></li>
             <li class="dropdown"><a href="#"><span>Login</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                 <li><a href="<?php echo base_url('index.php/login_ctrl/loginUser')?>">Pengguna</a></li>

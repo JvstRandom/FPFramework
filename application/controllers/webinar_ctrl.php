@@ -29,4 +29,8 @@ class webinar_ctrl extends CI_Controller
     function webinar_page() {
         $this->template->Tampilan("webinar_page");
     }
+
+    function dashboard_page() {
+        $this->load->view("Dashboard/dashboard_index");
+    }
 }

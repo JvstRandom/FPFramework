@@ -5,7 +5,7 @@
     <div class="container" data-aos="fade-up">
 
       <div class="hero-img" data-aos="zoom-out" data-aos-delay="200">
-        <img src="assets/img/hero-img.svg" alt="" class="img-fluid">
+        <img src="assets/img/hero-bg1.png" alt="" class="img-fluid" id="imghero">
       </div>
 
       <div class="hero-info" data-aos="zoom-in" data-aos-delay="100">

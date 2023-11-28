@@ -371,13 +371,13 @@ h6 {
 }
 
 #hero .hero-img {
-  width: 50%;
+  width: 40% ;
   float: right;
 }
 
 @media (max-width: 991px) {
   #hero .hero-img {
-    width: 80%;
+    width: 60%;
     float: none;
     margin: 0 auto 25px auto;
   }
